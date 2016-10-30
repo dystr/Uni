@@ -3,7 +3,6 @@ main :: IO ()
 main = putStrLn "Hello World"
 
 -- Aufgabe 2
-fkt :: Int -> Int
 fkt = [ 3 + 13 `div` 2 .. ] !! 1 : [ 5 .. 7 ] --Ausgabe: Liste
 fkte = ((([(3 + (13 `div` 2)) ..]) !! 1) : ([5 .. 7]))
 -- Aufgabe 3
