@@ -2,16 +2,16 @@
 Aufgabe 1
   1. Edsger Wybe Dijkstra -> Dijkstra-Algorithmus (Kürzester Pfad innerhalb eines Graphen.
   2. John von Neumann			-> Begründete Spieltheorie als mathematische Disziplin, beteiligt am Bau der Wasserstoffbombe.
-	3. John William Mauchly -> Entwickler von ENIAC, EDVAC, BINAC und UNIVAC.
-	4. Ada Lovelace					-> Entwicklung des ersten theoretischen Computer Programms.
-	5. John Vincent Atanasoff -> Erster digitaler Computer.
-	6. John Backus					-> FORTRAN Entwicklung. (Erste Programmiersprache abstrahiert von Assembly).
-	7. Grace Hopper					-> Erster Compiler.
-	8. John Presper Eckert  -> Entwickler (ENIAC, UNIVAC)
-	9. Konrad Zuse					-> Erste "High-Level" Programmiersprache "Plankalkül".
-	10. Alan Turing					-> Turingmaschine, Enigma entschlüsselung.
-	11. Charles Babbage			-> Erster mechanischer Computer.
-	12. Linus Torvalds			-> Schrieb erste Version des Linux Kernel. "Nvidia,fuck you!"
+  3. John William Mauchly -> Entwickler von ENIAC, EDVAC, BINAC und UNIVAC.
+  4. Ada Lovelace					-> Entwicklung des ersten theoretischen Computer Programms.
+  5. John Vincent Atanasoff -> Erster digitaler Computer.
+  6. John Backus					-> FORTRAN Entwicklung. (Erste Programmiersprache abstrahiert von Assembly).
+  7. Grace Hopper					-> Erster Compiler.
+  8. John Presper Eckert  -> Entwickler (ENIAC, UNIVAC)
+  9. Konrad Zuse					-> Erste "High-Level" Programmiersprache "Plankalkül".
+  10. Alan Turing					-> Turingmaschine, Enigma entschlüsselung.
+  11. Charles Babbage			-> Erster mechanischer Computer.
+  12. Linus Torvalds			-> Schrieb erste Version des Linux Kernel. "Nvidia,fuck you!"
 -}
 	
 module Main where
