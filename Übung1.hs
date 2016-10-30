@@ -24,12 +24,12 @@ fibx 1 = 1
 fibx x = fibx (x-1) + fibx (x-2)
 
 -- f(x) = f(x-1) + f(x-2)
-
-{-a = [ "Hallo","Guten Tag","" ]
+--Aufgabe 6
+a = [ "Hallo","Guten Tag","" ]
 c = [ "Herr","Frau" ]
 b = "Sehr geehrter" : ["Sehr geehrte","Lieber","Liebe","Hochwuerdigste Exzellenz","Ehrwuerdiger"]
 d = [ "Professor","Professorin" ] ++ [ "Prof." ]
 e = 'N':'e':'b':'e':'l':[]
 f = [":",";","?","!"]
-satz x = a !! x !! 0 ++ b !! x !! 1 ++ c !! x !! 2 ++ d !! x !! 3 ++ e !! x !! 4 ++ f !! x !! 5
--}
+space = a !! 2
+satz = b !! 0 ++ space ++ c !! 0 ++ space ++ d !! 2 ++ space ++ e ++ f !! 6
