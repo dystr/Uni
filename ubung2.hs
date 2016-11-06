@@ -37,9 +37,12 @@ sumGauss n
     | otherwise = ( n * ( n + 1 ) ) `div` 2 + ( sumGauss ( n - 1 ) )
 
 --Aufgabe 6
---maxElem :: [Int]
-maxElem' :: [Int] -> [Int]
-    maxElem' (a:as)  = filter (>a) as
+maxElem ::Ord a => [a] -> a
+maxElem l
+	| l == []= error "empty list"
+	| length l == 1 = l !! 0
+	| otherwise = maxElem (filter (> head l) l)
+    
 --Aufgabe 8
 {-dist :: Int -> [(Int,Int)]
 dist r = [(t,b)] | (x,y) <- ((3 * t + 2 * b) == r)
