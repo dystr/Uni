@@ -40,7 +40,7 @@ sumGauss n
 maxElem ::Ord a => [a] -> a
 maxElem l
 	| l == []= error "empty list"
-	| length l == 1 = l !! 0
+	| length l == 1 = head l
 	| otherwise = maxElem (filter (> head l) l)
     
 --Aufgabe 8
