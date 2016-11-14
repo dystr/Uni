@@ -5,4 +5,4 @@
 failPredicate function list = filter (not . function) list
 
 --Aufgabe 3
-deleteElem v list = failPredicate (/=v) list
+deleteElem v list = failPredicate (==v) list
