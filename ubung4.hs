@@ -15,7 +15,7 @@ sublists (x:xs) = sublists xs ++ map (x:) (sublists xs) -- Erzeugt alle möglich
 maxsublist :: [Int] -> Int
 maxsublist  list = maximum (map sum (sublists list)) --Wendet sum auf jede Teillisten an und gibt das größte Ergebnis wieder.
 
--- Aufgabe 4
+-- Aufgabe 3
 tabularasa :: [Int] -> (Int, [Int]) --Vorlesung verpasst, Teilfolgen-Problem nicht im Lernraum gefunden.
 tabularasa list = maximum (zip (map sum (sublists list)) (sublists list))  -- Löst das Problem, aber nicht wie gefordert. Grund siehe oben.
 
