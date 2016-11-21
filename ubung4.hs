@@ -12,9 +12,10 @@ sublists :: [Int] -> [[Int]]
 sublists []  = [[]]
 sublists (x:xs) = sublists xs ++ map (x:) (sublists xs) -- Erzeugt alle möglichen Teillisten
 
-maxsublist :: (Ord a, Num a) => [[a]] -> a
-maxsublist  lists = maximum (map sum lists) --Wendet sum auf jede Teillisten an und gibt das größte Ergebnis wieder.
+maxsublist :: [Int] -> Int
+maxsublist  list = maximum (map sum (sublists list)) --Wendet sum auf jede Teillisten an und gibt das größte Ergebnis wieder.
 
--- Aufgabe 3
-tabularasa :: (Ord a, Num a) => [[a]] -> (a, [a]) --Vorlesung verpasst, Teilfolgen-Problem nicht im Lernraum gefunden.
-tabularasa lists = maximum (zip (map sum lists) lists)  -- Löst das Problem, aber nicht wie gefordert. Grund siehe oben.
+-- Aufgabe 4
+tabularasa :: [Int] -> (Int, [Int]) --Vorlesung verpasst, Teilfolgen-Problem nicht im Lernraum gefunden.
+tabularasa list = maximum (zip (map sum (sublists list)) (sublists list))  -- Löst das Problem, aber nicht wie gefordert. Grund siehe oben.
+
